@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Board — The Parc Elite Agency</title>
+<meta name="description" content="Have a skill? List your specialty with The Parc Elite Agency and we'll reach out when jobs are available.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="logo" href="index.html#top">
+      <span class="logo-text">PARC ELITE<span>AGENCY</span></span>
+    </a>
+    <nav class="links">
+      <a href="index.html#services">Services</a>
+      <a href="index.html#events">Events</a>
+      <a href="index.html#process">Process</a>
+      <a href="index.html#workforce">Workforce</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="job-board.html" class="nav-cta">Job Board</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open menu"><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="min-height:380px; padding-bottom:56px;">
+    <div class="wrap">
+      <div class="hero-inner">
+        <div class="eyebrow">Join The Job Board</div>
+        <h1 style="font-size:clamp(32px,5.6vw,52px);">Have a skill?<br><em>List it here.</em></h1>
+        <p class="hero-sub">Sign up below and we'll reach out to you when jobs matching your specialty are available — whether or not Parc Elite produced the event.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap contact-wrap">
+      <div class="contact-info reveal">
+        <div class="eyebrow">Join The Job Board</div>
+        <h2>Three steps. That's it.</h2>
+        <p>List your specialty once — we'll do the matching and reach out the moment a role opens up.</p>
+        <div class="contact-detail">
+          <div>
+            <div class="label">Step 01</div>
+            <div class="value">Share your specialty &amp; experience</div>
+          </div>
+          <div>
+            <div class="label">Step 02</div>
+            <div class="value">We keep your profile on file</div>
+          </div>
+          <div>
+            <div class="label">Step 03</div>
+            <div class="value">We call when a role matches</div>
+          </div>
+        </div>
+      </div>
+
+      <form class="reveal job-form-card" id="jobForm">
+        <div class="row2">
+          <div class="field">
+            <label for="fullName">Full name</label>
+            <input id="fullName" name="fullName" type="text" required placeholder="Jordan Reyes">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@email.com">
+          </div>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="(555) 000-0000">
+          </div>
+          <div class="field">
+            <label for="specialty">Specialty</label>
+            <select id="specialty" name="specialty" required>
+              <option value="" disabled selected>Select your specialty</option>
+              <option>Event Manager / Producer</option>
+              <option>Hospitality Staff</option>
+              <option>Security &amp; Crowd Management</option>
+              <option>AV Technician / Production Crew</option>
+              <option>Registration / Check-in Staff</option>
+              <option>Brand Ambassador</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="experience">Tell us about your experience</label>
+          <textarea id="experience" name="experience" placeholder="Roles you've worked, years of experience, cities/regions you cover"></textarea>
+        </div>
+        <button class="submit-btn" type="submit">Submit</button>
+        <div class="form-note" id="jobFormNote">Thanks — you're on the list. We'll reach out when a job matches your specialty.</div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a class="logo" href="index.html#top" style="margin-bottom:14px; display:inline-flex;">
+          <span class="logo-text">PARC ELITE<span>AGENCY</span></span>
+        </a>
+        <p style="max-width:280px; font-size:14.5px; color:rgba(246,244,239,0.6);">Event planning, production, and workforce solutions for corporate, nonprofit, conference, and brand activation events.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h5>Company</h5>
+          <a href="index.html#services">Event Execution</a>
+          <a href="index.html#workforce">Workforce Solutions</a>
+          <a href="index.html#process">Our Process</a>
+        </div>
+        <div class="foot-col">
+          <h5>Connect</h5>
+          <a href="mailto:info@parceliteagency.com">Email Us</a>
+          <a href="index.html#contact">Start a Project</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 The Parc Elite Agency. All rights reserved.</div>
+      <div>Maryland · Washington DC · Worldwide</div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
