@@ -298,23 +298,7 @@ section{ padding:96px 0; position:relative; }
   align-items:center;
   justify-content:center;
   padding:32px;
-}
-.photo-card-wrap::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  z-index:0;
-  background-image:var(--bg);
-  background-size:cover;
-  background-position:center;
-  filter:grayscale(1);
-}
-.photo-card-wrap::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  z-index:0;
-  background:rgba(20,23,27,0.15);
+  background:var(--ink);
 }
 .photo-card{
   position:relative;
