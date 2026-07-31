@@ -1,18 +1,18 @@
 :root{
-  --ink:#14171b;
-  --ink-soft:#3a3f46;
-  --paper:#f6f4ef;
-  --paper-dim:#eeebe3;
+  --ink:#0a0a0a;
+  --ink-soft:#4a4a4a;
+  --paper:#ffffff;
+  --paper-dim:#f2f2f2;
   --brass:#4a4a4a;
   --brass-bright:#e9e9e5;
-  --emerald:#2b2b2b;
-  --emerald-bright:#3a3a3a;
+  --emerald:#111111;
+  --emerald-bright:#222222;
   --crimson:#000000;
   --pop-gold:#e5342a;
-  --pop-pink:#dd5d84;
-  --pop-green:#2f9e6b;
-  --pop-blue:#3f7fdc;
-  --pop-amber:#d9772e;
+  --pop-pink:#111111;
+  --pop-green:#e5342a;
+  --pop-blue:#111111;
+  --pop-amber:#e5342a;
   --line: rgba(20,23,27,0.14);
   --line-soft: rgba(20,23,27,0.08);
   --display: "Archivo Black", sans-serif;
@@ -77,7 +77,7 @@ header{
   position:sticky;
   top:0;
   z-index:100;
-  background:rgba(246,244,239,0.92);
+  background:rgba(255,255,255,0.92);
   backdrop-filter:blur(8px);
   border-bottom:1px solid var(--line);
 }
@@ -500,12 +500,12 @@ section{ padding:96px 0; position:relative; }
 .roles-panel .section-head h2{ color:var(--paper); }
 .roles-panel .eyebrow{ color:var(--pop-gold); }
 .roles-panel .eyebrow::before{ background:var(--pop-gold); }
-.roles-panel .section-head p{ color:rgba(246,244,239,0.75); }
+.roles-panel .section-head p{ color:rgba(255,255,255,0.75); }
 .roles-grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
   gap:1px;
-  background:rgba(246,244,239,0.18);
+  background:rgba(255,255,255,0.18);
 }
 .role-card{
   background:rgba(20,23,27,0.45);
@@ -524,7 +524,7 @@ section{ padding:96px 0; position:relative; }
   margin-bottom:8px;
 }
 .role-card p{
-  color:rgba(246,244,239,0.68);
+  color:rgba(255,255,255,0.68);
   font-size:14.5px;
   margin:0;
 }
@@ -674,7 +674,7 @@ form{ display:flex; flex-direction:column; gap:20px; }
 /* ---------- FOOTER ---------- */
 footer{
   background:var(--ink);
-  color:rgba(246,244,239,0.7);
+  color:rgba(255,255,255,0.7);
   padding:56px 0 30px;
 }
 .foot-top{
@@ -683,7 +683,7 @@ footer{
   flex-wrap:wrap;
   gap:40px;
   padding-bottom:40px;
-  border-bottom:1px solid rgba(246,244,239,0.15);
+  border-bottom:1px solid rgba(255,255,255,0.15);
 }
 .foot-brand .logo-text{ color:var(--paper); }
 .foot-brand .logo-mark{ color:var(--paper); }
@@ -699,7 +699,7 @@ footer{
 .foot-col a{
   display:block;
   text-decoration:none;
-  color:rgba(246,244,239,0.7);
+  color:rgba(255,255,255,0.7);
   font-size:15px;
   margin-bottom:10px;
 }
@@ -712,7 +712,7 @@ footer{
   padding-top:26px;
   font-family:var(--mono);
   font-size:12px;
-  color:rgba(246,244,239,0.45);
+  color:rgba(255,255,255,0.45);
 }
 
 /* ---------- RESPONSIVE ---------- */
