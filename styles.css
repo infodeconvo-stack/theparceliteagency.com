@@ -175,12 +175,20 @@ nav.links a:hover{color:var(--ink);}
   padding:80px 0 48px;
   overflow:hidden;
   color:#fff;
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
   background:
     linear-gradient(120deg, rgba(20,23,27,0.88) 0%, rgba(20,23,27,0.68) 55%, rgba(20,23,27,0.85) 100%),
     url('images/hero-banner.jpg');
   background-size:cover;
   background-position:center;
+  filter:grayscale(1);
 }
+.hero > .wrap{ position:relative; z-index:1; }
 .hero .eyebrow{ color:var(--pop-gold); }
 .hero .eyebrow::before{ background:var(--pop-gold); }
 .hero .wrap{ max-width:none; margin-left:0; padding-left:48px; }
@@ -289,13 +297,22 @@ section{ padding:96px 0; position:relative; }
   align-items:center;
   justify-content:center;
   padding:32px;
+}
+.photo-card-wrap::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  background-image:var(--bg);
   background-size:cover;
   background-position:center;
+  filter:grayscale(1);
 }
 .photo-card-wrap::after{
   content:"";
   position:absolute;
   inset:0;
+  z-index:0;
   background:rgba(20,23,27,0.15);
 }
 .photo-card{
@@ -426,6 +443,7 @@ section{ padding:96px 0; position:relative; }
   width:100%;
   height:520px;
   object-fit:cover;
+  filter:grayscale(1);
 }
 .project-photo figcaption{
   position:absolute;
@@ -491,12 +509,22 @@ section{ padding:96px 0; position:relative; }
 
 /* ---------- WORKFORCE / JOB BOARD ROLES ---------- */
 .roles-panel{
+  position:relative;
   background-color:var(--emerald);
-  background-size:cover;
-  background-position:center;
   color:var(--paper);
   padding:64px 0;
 }
+.roles-panel::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  background-image:linear-gradient(rgba(10,10,10,0.82),rgba(10,10,10,0.88)), var(--bg);
+  background-size:cover;
+  background-position:center;
+  filter:grayscale(1);
+}
+.roles-panel > .wrap{ position:relative; z-index:1; }
 .roles-panel .section-head h2{ color:var(--paper); }
 .roles-panel .eyebrow{ color:var(--pop-gold); }
 .roles-panel .eyebrow::before{ background:var(--pop-gold); }
