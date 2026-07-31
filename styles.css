@@ -72,6 +72,10 @@ h1,h2,h3,h4{
   margin:0;
   color:var(--ink);
 }
+h1 em, h2 em, h3 em, h4 em{
+  font-style:normal;
+  color:var(--pop-gold);
+}
 
 /* ---------- NAV ---------- */
 header{
