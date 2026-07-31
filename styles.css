@@ -193,7 +193,11 @@ nav.links a:hover{color:var(--ink);}
 }
 .hero h1 em{
   font-style:normal;
-  color:var(--pop-gold);
+  display:inline-block;
+  background:var(--pop-gold);
+  color:#fff;
+  padding:2px 16px;
+  line-height:1.15;
 }
 .hero-sub{
   font-size:17px;
