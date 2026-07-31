@@ -8,11 +8,11 @@
   --emerald:#111111;
   --emerald-bright:#222222;
   --crimson:#000000;
-  --pop-gold:#e5342a;
+  --pop-gold:#111111;
   --pop-pink:#111111;
-  --pop-green:#e5342a;
+  --pop-green:#111111;
   --pop-blue:#111111;
-  --pop-amber:#e5342a;
+  --pop-amber:#111111;
   --line: rgba(20,23,27,0.14);
   --line-soft: rgba(20,23,27,0.08);
   --display: "Archivo Black", sans-serif;
@@ -241,7 +241,7 @@ nav.links a:hover{color:var(--ink);}
 
 .hero .btn{ border-radius:999px; padding:16px 30px; }
 .hero .btn-solid{ background:var(--pop-gold); color:var(--ink); border-color:var(--pop-gold); }
-.hero .btn-solid:hover{ background:#b8291f; border-color:#b8291f; }
+.hero .btn-solid:hover{ background:#333333; border-color:#333333; }
 .hero .btn-line{ background:transparent; color:#fff; border-color:rgba(255,255,255,0.55); }
 .hero .btn-line:hover{ background:rgba(255,255,255,0.14); }
 
