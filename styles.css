@@ -85,7 +85,8 @@ header{
   display:flex;
   align-items:center;
   justify-content:flex-end;
-  padding:18px 32px;
+  min-height:76px;
+  padding:14px 32px;
   max-width:1220px;
   margin:0 auto;
 }
@@ -103,7 +104,7 @@ header .logo{
   text-decoration:none;
 }
 .logo-mark{ flex-shrink:0; color:var(--ink); }
-.logo-img{ height:34px; width:auto; }
+.logo-img{ height:54px; width:auto; }
 .logo-text{
   font-family:var(--display);
   font-weight:400;
